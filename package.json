@@ -1,0 +1,29 @@
+{
+  "name": "pragmatic-tips",
+  "version": "0.0.0",
+  "description": "Random command-line Pragmatic Programmer tips generator.",
+  "main": "./lib/pragmatic-tips",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbypriambodo/pragmatic-tips.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "pragmatic"
+  ],
+  "author": "Bobby Priambodo <bobby.priambodo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobbypriambodo/pragmatic-tips/issues"
+  },
+  "homepage": "https://github.com/bobbypriambodo/pragmatic-tips#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  }
+}
