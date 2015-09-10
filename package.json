@@ -1,6 +1,6 @@
 {
   "name": "pragmatic-tips",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Random command-line Pragmatic Programmer tips generator.",
   "main": "./lib/pragmatic-tips",
   "scripts": {
