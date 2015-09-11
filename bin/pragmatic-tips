@@ -4,6 +4,6 @@ var generate = require('../lib/generate');
 
 var tip = generate();
 
-console.log('\nPragmatic Programmer Tip');
+console.log('Pragmatic Programmer Tips');
 console.log('#' + tip.number + ':', tip.title);
-console.log(tip.description + '\n');
+console.log(tip.description);
