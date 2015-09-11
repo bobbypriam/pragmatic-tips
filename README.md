@@ -6,7 +6,7 @@ Need a daily tip from [The Pragmatic Programmer](http://www.amazon.com/The-Pragm
 
 This program requires [NodeJS](https://nodejs.org/en/). Install via `npm`:
 
-    npm install pragmatic-tips
+    npm i -g pragmatic-tips
 
 This will install `pragmatic-tips` globally so you can run it from terminal.
 
