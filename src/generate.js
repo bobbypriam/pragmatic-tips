@@ -1,6 +1,6 @@
 import { TIPS } from './constants';
 
-function generateRandomTip() {
+function generate() {
   return {
     // number: '1',
     // title: 'Lorem Ipsum',
@@ -8,4 +8,4 @@ function generateRandomTip() {
   };
 }
 
-export default generateRandomTip;
+export default generate;

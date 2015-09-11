@@ -5,7 +5,7 @@ var TIPS = require('../lib/constants.js').TIPS;
 
 describe('pragmatic-tips', function () {
 
-  describe('generateRandomTip', function () {
+  describe('generate()', function () {
 
     it('should return an object containing number, title, and description', function () {
       var tip = generate();
