@@ -4,7 +4,10 @@
   "description": "Random command-line Pragmatic Programmer tips generator.",
   "main": "./lib/pragmatic-tips",
   "scripts": {
-    "test": "mocha"
+    "start": "./bin/pragmatic-tips",
+    "test": "./node_modules/.bin/mocha",
+    "build": "./node_modules/.bin/babel src -d lib",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,9 @@
     "babel": "^5.8.23",
     "chai": "^3.2.0",
     "mocha": "^2.3.2"
-  }
+  },
+  "bin": {
+    "pragmatic-tips": "./bin/pragmatic-tips"
+  },
+  "preferGlobal": "true"
 }
